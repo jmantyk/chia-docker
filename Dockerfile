@@ -27,4 +27,3 @@ RUN mkdir /plots
 ADD ./entrypoint.sh entrypoint.sh
 
 ENTRYPOINT ["bash", "./entrypoint.sh"]
-
